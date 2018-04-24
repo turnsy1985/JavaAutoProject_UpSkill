@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class FirstTestCase {
 
 public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\p10317090\\eclipse-workspace\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		
         //Launch the Online Store Website
