@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="executionEngine.TestNG_POC.TEST_2TestNG">
+      <class name="executionEngine.FirstTestNGFile">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="main"/>
+          <include name="verifyHomepageTitle"/>
         </methods>
-      </class> <!-- executionEngine.TestNG_POC.TEST_2TestNG -->
+      </class> <!-- executionEngine.FirstTestNGFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
