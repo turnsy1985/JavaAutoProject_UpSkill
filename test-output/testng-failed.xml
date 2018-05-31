@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="executionEngine.FirstTestNGFile">
+      <class name="executionEngine.BlackRifleNav_TESTNG">
         <methods>
-          <include name="verifyHomepageTitle"/>
+          <include name="BlackRifleNavigation"/>
         </methods>
-      </class> <!-- executionEngine.FirstTestNGFile -->
+      </class> <!-- executionEngine.BlackRifleNav_TESTNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
