@@ -1,4 +1,4 @@
-package executionEngine;
+package exampleJavaScenarios;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
