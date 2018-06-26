@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="executionEngine.BlackRifleNav_TESTNG">
+      <class name="CEF.ToolStorage">
         <methods>
-          <include name="BlackRifleNavigation"/>
+          <include name="ToolStorage"/>
         </methods>
-      </class> <!-- executionEngine.BlackRifleNav_TESTNG -->
+      </class> <!-- CEF.ToolStorage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

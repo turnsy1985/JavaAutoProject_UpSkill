@@ -1,4 +1,4 @@
-package executionEngine;
+package exampleJavaScenarios;
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverCommands {
