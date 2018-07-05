@@ -1,4 +1,4 @@
-package CEF;
+package sheppey_pride;
 
 import java.util.concurrent.TimeUnit;
 
@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PageLoad {
-    public String baseUrl = "https://www.cef.co.uk/";
+    public String baseUrl = "https://www.sheppeypride.co.uk/";
     String driverPath = "C:\\Users\\p10317090\\eclipse-workspace\\geckodriver.exe";
     public WebDriver driver ; 
 		
@@ -19,7 +19,7 @@ public class PageLoad {
       System.setProperty("webdriver.gecko.driver", "C:\\Users\\p10317090\\eclipse-workspace\\geckodriver.exe");
       driver = new FirefoxDriver();
       driver.get(baseUrl);
-      String expectedTitle = "Welcome to CEF | Electrical Wholesalers / Suppliers";
+      String expectedTitle = "Sheppey Pride | Isle of Sheppey Community";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
       String Title = driver.getTitle();
