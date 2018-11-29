@@ -9,7 +9,7 @@ public class BlackRifleNavigation {
 
 public static <oCheck> void main(String[] args) throws InterruptedException {
 	
-	System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\p10317090\\\\geckodriver\\\\geckodriver023\\\\geckodriver.exe");
 	WebDriver driver = new FirefoxDriver();
 			
 	// Put an Implicit wait, 
@@ -20,9 +20,6 @@ public static <oCheck> void main(String[] args) throws InterruptedException {
 	
 	// wait for page to fully load and pop up to appear
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	
-	// Dismiss newsletter pop up
-	driver.findElement(By.className("klaviyo_header_close")).click();
 	
 	// Coffee Collection
 	driver.findElement(By.className("zoom-hover")).click();
