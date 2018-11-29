@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CEF.ToolStorage">
+      <class name="Cfeconcept.LoginFrontOffice">
         <methods>
-          <include name="ToolStorage"/>
+          <include name="BlackRifleNavigation"/>
         </methods>
-      </class> <!-- CEF.ToolStorage -->
+      </class> <!-- Cfeconcept.LoginFrontOffice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
